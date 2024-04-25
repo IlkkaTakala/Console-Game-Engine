@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameLoop" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIhAAABCAAQAAAAQAIgAAAAAAAAABAABAABBQBAQA=</HashCode>
+      <FileName>Engine\GameLoop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshData" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAEAAAAAABAgAQAAgAUACAIQAAEIADEIAAAIAAA=</HashCode>
+      <FileName>Engine\GarbageCollector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GC" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAoACAAAAAAIABAAQBAAAAABAABAgAEAAAAAAABAQA=</HashCode>
+      <FileName>Engine\GarbageCollector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer" Collapsed="true">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKCgYAAgAAAAIMAACQgAIIEAAAAAESAIAACAAAACAQI=</HashCode>
+      <FileName>Engine\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INISettings" Collapsed="true">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAIACAAgIAAAgAAAAAAQAAAAAAFAAAAAAAIAA=</HashCode>
+      <FileName>Engine\Settings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Actor" Collapsed="true">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAgQAA=</HashCode>
+      <FileName>Engine\Objects\Actor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAAgAAAAAAAAAAAAABAAAAACAAAAAAA=</HashCode>
+      <FileName>Engine\Objects\BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ref&lt;T&gt;" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAQAAAgAAAAAAAwAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Engine\Objects\BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tickable" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Engine\Objects\BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseObject" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAgQAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Engine\Objects\BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAhAAAEAAEAAAAAAAAQAAAAEAAAAEQggAAAAAAE=</HashCode>
+      <FileName>Engine\Objects\VisibleObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisibleObject" Collapsed="true">
+    <Position X="4.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAAAIAAAAIAAAAEAAAAAAgkAAgAAgAkBBA=</HashCode>
+      <FileName>Engine\Objects\VisibleObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="7" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAgAAgIAQ=</HashCode>
+      <FileName>Engine\Gameplay\GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input" Collapsed="true">
+    <Position X="12.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAQBACAAIAAAABAAAAAAEAAAAwAAAAAQBAAAUQI=</HashCode>
+      <FileName>Engine\Gameplay\InputControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="1.5" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="Tickable" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="6.562" />
+        <Point X="1.25" Y="7.612" />
+        <Point X="1.5" Y="7.612" />
+        <Point X="1.5" Y="7.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEBCAAAABAAAAAAAAAAAAAAAAEAEAAAAAAAAAQAgUQA=</HashCode>
+      <FileName>Engine\Gameplay\PlayerController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElementBase" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAAAAAACkiAAAAIEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\UI\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Panel" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAABAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\UI\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Border" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAAAAAAAAAgAEAEAAAAACAQAAIACAAAAAEAAAAAA=</HashCode>
+      <FileName>Engine\UI\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\UI\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAACAAAAAA=</HashCode>
+      <FileName>Engine\UI\UIElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIHolder" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAhAAAAQAgAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Engine\UI\UIHolder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EngineInterface" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Game\EngineInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestPlayer" Collapsed="true">
+    <Position X="1.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIhAAAAAAAIAAAAAAAAgAAwAAAAAAAAgCAgAgwAQ=</HashCode>
+      <FileName>Game\TestPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestUI" Collapsed="true">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\TestUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::StackAllocator&lt;T, stack_capacity&gt;" Collapsed="true">
+    <Position X="18.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::StackContainer&lt;TContainerType, stack_capacity&gt;" Collapsed="true">
+    <Position X="18.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAgAAQAAAAAAIAQgAAAAIAAAAAAACgAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::StackVector&lt;T, stack_capacity&gt;" Collapsed="true">
+    <Position X="18.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::real3&lt;T&gt;" Collapsed="true">
+    <Position X="21.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAQAAAAEAAAAAABBgAQAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::Ray&lt;T&gt;" Collapsed="true">
+    <Position X="20" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAAAAAAIAAACABgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::BVHNode&lt;T&gt;" Collapsed="true">
+    <Position X="21.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAAIEAAAABAAAAAAAAACAwAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::IntersectComparator&lt;H&gt;" Collapsed="true">
+    <Position X="21.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::BVHBuildStatistics" Collapsed="true">
+    <Position X="20" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAEAAAAAAAAABAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::BVHTraceOptions" Collapsed="true">
+    <Position X="23.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAAAAAAAAACBAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::BBox&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::NodeHit&lt;T&gt;" Collapsed="true">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAQAAAQQAAAAAAAAAAAAAAAAAAgAAABAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::NodeHitComparator&lt;T&gt;" Collapsed="true">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::BVHAccel&lt;T&gt;" Collapsed="true">
+    <Position X="18.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgICQgAQAAIAACAwAgAAAByBAggQAAAAAAABQIAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::TriangleSAHPred&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAAAAABACAEAAAAAAAAAAQAAAAAAAgEBAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::TriangleMesh&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAEAAAAAAAAAAAAAgAAAACAQAAAIEAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::TriangleIntersection&lt;T&gt;" Collapsed="true">
+    <Position X="20" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYAAAAAABA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanort::TriangleIntersector&lt;T, H&gt;" Collapsed="true">
+    <Position X="21.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAEAAAAAAQAAAAAAAEAAJoAAAUgIAAACQAECAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::PrimitiveInterface&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::SpherePrimitive" Collapsed="true">
+    <Position X="16.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::Matrix&lt;T&gt;" Collapsed="true">
+    <Position X="23.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABAAAAIAAEAAAgAgAAAAAEAAAAgEAAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::Node&lt;T, M&gt;" Collapsed="true">
+    <Position X="20" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAICAABEEQIABACICAiEsIQQAAgAAAgQAEDJAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::NodeBBoxPred&lt;T, M&gt;" Collapsed="true">
+    <Position X="16.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABACAEAAAAAAAAAAQAAAAAAAAEAAAIAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::NodeBBoxGeometry&lt;T, M&gt;" Collapsed="true">
+    <Position X="20" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAgAAAAAAAAAAAAIAACAAACAAACAAAAAAIAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::NodeBBoxIntersection" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAQAAAAAABA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::NodeBBoxIntersector&lt;T, M&gt;" Collapsed="true">
+    <Position X="16.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAIAAAAAEAAAAABAEACAAACAAAAAAIAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nanosg::Scene&lt;T, M&gt;" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAMAAAAAAAAAAgAAAAQBgQAAQAAAAQAAAAAAIIAA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Vector" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAUAAAAQBAGAAAAAAAAEAgAAAAYAE=</HashCode>
+      <FileName>Engine\BasicTypes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector2D" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAgAAAAYAA=</HashCode>
+      <FileName>Engine\BasicTypes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="nanort::BVHBuildOptions&lt;T&gt;" Collapsed="true">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACAAEAAAAEAAAAAAAQAAAQAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="nanort::BinBuffer" Collapsed="true">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAIAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="nanosg::Intersection&lt;T&gt;" Collapsed="true">
+    <Position X="20" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAgAAAAAACAAAAAABYAAABAABA=</HashCode>
+      <FileName>Engine\nanosg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="nanort::RayType" Collapsed="true">
+    <Position X="20.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="nanort::__unnamed_enum_000e_1" Collapsed="true">
+    <Position X="20.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEAAAAAEABIAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Engine\nanort.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
